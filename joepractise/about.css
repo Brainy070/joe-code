@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top rgba(0,0,0,0.5)50%, rgba(0,0,0,.5)50%);
+    background-image: url(../joepractise/images/sewing\ R1.jpg);
+    background-position: 50%;
+    background-size: cover;
+    height: 80vh; 
+    
+}
+.logo{
+    color:whitesmoke;
+   font-size: 36px;
+   font-family: Arial,;
+   padding-left: 20px;
+   float: left;
+   padding-top: 10px;
+}
+.content{
+    width: 1200px;
+    height: auto,;
+    margin: auto;
+    color: #fff;
+    position:absolute ;
+    left: 75px;
+    
+}
+
+.content h1{
+    font-family: 'Times New Roman',;
+     font-size: 60px;
+        padding-left:15px;
+        margin-top: 15%;
+        letter-spacing: 2px;
+        
+    }
+    
+    .content span{
+        color:burlywood;
+        font-size: 60px;
+    }
+    img{
+        float: right;
+    }
+    
+    body{
+        height: 100vh;
+        background:whitesmoke;
+    }
+    .img{
+        float:left;
+        padding: 5%;
+     
+    }
+    h2{
+        text-align: center;
+    }
+    footer{
+        background-color: whitesmoke;
+        
+    }
+    footer p{
+        text-align: center;
+        font-weight: 100;
+
+    }
+    .footercontainer{
+        width: 100%;
+        padding: 70px 30px 20px;
+    }
+    .socialicon{
+        display: flex;
+        justify-content: center;
+    }
+    .socialicon a{
+        background-color: white;
+        padding: 10px;
+        border-radius: 50%;
+        margin: 10px;
+        text-decoration: none;
+    }
+    .socialicon a i{
+        font-size: 2em;
+        color: black;
+        opacity: 0.9;
+    }
+    /* hover effect on social madia icon*/
+    .socialicon a:hover{
+        background-color: blue;
+        transition: 0,5s;
+    }
+    .socialicon a:hover i{
+        color: aqua;
+        transition: 0.5s;
+    }
+    .footernav{
+        margin: 30px 0;
+        
+    }
+    .footernav ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    .footernav ul li{
+        color: blue;
+        text-decoration: none;
+        margin: 20px;
+        font-size: 1.3em;
+        opacity: 0.7;
+        transition: 0.5;
+      
+    }
+    .footernav ul li a:hover{
+        opacity: 1;
+        color: aqua;
+    }
+    .footerbuttom{
+        background-color: blue;
+        padding: 20px;
+        text-align: center;
+    }
+    .footerbuttom p{
+        color: black;
+    
+    }
+    .designer{
+        opacity: 0.7;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: opx 5px;
+    }
+    @media(max-width:700px){
+        .footernav ul{
+            flex-direction: column;
+        }
+        .footernav ul li{
+            width: 100px;
+            text-align: 10px;
+            margin: 10px;
+        }
+    }

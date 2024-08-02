@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 85%;
+    background: linear-gradient( to top rgba(0,0,0,0.5)30%);
+    background-image: url(../joepractise/images/img1.jpg);
+    background-position: center;
+    height:50vh ;
+    text-transform: capitalize;
+    padding-left: 50px;
+    padding-bottom: 55px;
+    
+}
+main{
+    background-color: mediumorchid;
+    text-decoration: solid;
+    text-transform: capitalize;
+    font-family: Arial,;
+    
+}
+
+img{
+    image-rendering: crisp-edges;
+    image-orientation: from-image;
+    padding-left: 50px;
+}

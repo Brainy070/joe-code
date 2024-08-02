@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top rgba(0,0,0,0.5)50%, rgba(0,0,0,.5)50%);
+    background-image: url(../joepractise/images/sewing\ tools.jpeg);
+    background-position: 50%;
+    background-size: cover;
+    height: 80vh; 
+    
+}
+.content{
+    width: 1200px;
+    height: auto,;
+    margin: auto;
+    color: #fff;
+    position:absolute ;
+    right: 75px;
+    
+}
+.content h1{
+    font-family: 'Times New Roman',;
+     font-size: 60px;
+        padding-left:15px;
+        margin-top: 15%;
+        letter-spacing: 2px;
+        
+    }
+    
+    .content span{
+        color:white;
+        font-size: 60px;
+    }
+h1{
+    padding:30px;
+    text-align: center;
+}
+body{
+    background-color: white;
+}
+img{
+    float: right;
+    padding: 5%;
+    
+}
+.img{
+    float: left;
+    padding: 6%;
+}
+h2{
+    text-align:left;
+    padding: 100px;
+}
+.h3{
+    padding: 10px;
+}
+footer{
+    background-color: whitesmoke;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicon{
+    display: flex;
+    justify-content: center;
+}
+.socialicon a{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    text-decoration: none;
+}
+.socialicon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+/* hover effect on social madia icon*/
+.socialicon a:hover{
+    background-color: blue;
+    transition: 0,5s;
+}
+.socialicon a:hover i{
+    color: aqua;
+    transition: 0.5s;
+}
+.footerbuttom{
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+.footerbuttom p{
+    color: black;
+
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: opx 5px;
+}
+footer p{
+    text-align: justify;
+    font-weight: 100;
+}
+.footerbuttom p{
+    text-align: center;
+    font-weight: 200;
+}
+
+.footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        width: 100px;
+        text-align: 10px;
+        margin: 10px;
+    }
+    @media(max-width:700px){
+        .footernav ul{
+            flex-direction: column;
+        }
+    }

@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-header{
+    background-color: rgb(17, 16, 16);
+    color: white;   
+}
+
+.nav-container{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.inline-nav{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+}
+
+.top-nav-bar{
+    line-height: 70px;
+}
+
+.top-nav-bar h1{
+    font-size: 45px;
+    margin: 0 40px 0 0;
+
+}
+
+/* Icon styles */
+.top-nav-bar .icon{
+    position: relative;
+    line-height: 70px;
+    margin-left: 30px;
+   
+}
+
+.top-nav-bar .icon a{
+    color: rgb(210, 199, 199);
+    text-decoration: none;
+    line-height: 70px;
+}
+
+
+.top-nav-bar .icon a span{
+    color: red;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.top-nav-bar .icon .material-icons{
+    font-size:36px; 
+    line-height: 70px;
+    color: whitesmoke;
+}
+.fa-person{
+    display: flex;
+    padding:  10px 50px 0 80px;
+}
+
+
+.bottom-nav-bar{
+    line-height: 70px;
+}
+
+
+
+.bottom-nav-bar div ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-nav-bar div ul li{
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-nav-bar div ul li.discount{
+    color: rgb(222, 14, 49);
+    font-size: 20px;
+    margin: 0 20px 0 20px;
+}
+
+.bottom-nav-bar div ul li a{
+    font-size: 16px;
+    color: rgb(216, 211, 211);
+    text-decoration: none;
+}
+
+.srch-container{
+    font-weight: 200;
+    border-radius: 50px;
+    width:400px;
+    height:40px;
+    padding-left: 50px;
+    border: none;   
+}
+.body-icon-speech{
+    margin: 20px;
+    padding: 10px;
+  
+}
+.fa-dollar{
+    color: blue;
+    display: flex;
+    padding:  10px 10px 0 200px;
+}
+.fa-truck{
+    display: flex;
+    padding:  10px 50px 0 80px;
+}
+.fa-people-group{
+    display: flex;
+    padding:  10px 50px 0 80px;
+}
+.fa-credit-card{
+    display: flex;
+    padding:  10px 50px 0 80px;
+}
+.fa-shield-halved{
+    display: flex;
+    padding:  10px 50px 0 80px;
+}
+/*
+.body-icon{
+    color: blue;
+    display: flex;
+    align-items: center;
+   
+}
+
+/*
+.body-icon-speech{
+    flex-direction:row;
+    margin: 30px;
+    padding: 0 0 50px 0;
+}
+.body-icon-speech.body-icon{
+    display: flex;
+    padding-left: 30px;
+   
+}
+
+/* .category{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(74, 65, 65);
+    color: white;
+
+} */
+
+/* .srch-container{
+     
+} */
+
+/*
+
+
+
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    float: right;
+    
+}
+ul li a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+li a:hover{
+    background-color: rgb(74, 65, 65);
+    width: 100px;
+    height: 200px;
+    border-radius: 4px;
+    border-width:10px;
+}
+
+.icon{
+    
+    padding-left: 100px;
+}
+*/

@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: rgb(25,12,41);
+}
+.slider{
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+}
+.images{
+    display: flex;
+    width: 50%;
+}
+.images img{
+    height: 400px;
+    width: 300px;
+    transition: all 0.5s;
+}
+.container{
+    padding: 2rem;
+}
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: auto;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16/ 9;
+    overflow-x: auto;
+    scroll-snap-type:x mandatory;
+}
+
+footer{
+    background-color: whitesmoke;
+    
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicon{
+    display: flex;
+    justify-content: center;
+}
+.socialicon a{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    text-decoration: none;
+}
+.socialicon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+/* hover effect on social madia icon*/
+.socialicon a:hover{
+    background-color: blue;
+    transition: 0,5s;
+}
+.socialicon a:hover i{
+    color: aqua;
+    transition: 0.5s;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.footernav ul li{
+    color: blue;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+    color: aqua;
+}
+.footerbuttom{
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+.footerbuttom p{
+    color: black;
+
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: opx 5px;
+}
+@media(max-width:700px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        width: 100px;
+        text-align: 10px;
+        margin: 10px;
+    }
+}
