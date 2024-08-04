@@ -64,6 +64,14 @@
 .fa-person{
     display: flex;
     padding:  10px 50px 0 80px;
+    font-size:36px; 
+    line-height: 70px;
+    color: whitesmoke;
+}
+.fa-cart-shopping{
+    font-size:25px; 
+    line-height: 70px;
+    color: whitesmoke;
 }
 
 
@@ -106,95 +114,98 @@
     padding-left: 50px;
     border: none;   
 }
-.body-icon-speech{
-    margin: 20px;
-    padding: 10px;
-  
-}
-.fa-dollar{
-    color: blue;
-    display: flex;
-    padding:  10px 10px 0 200px;
-}
-.fa-truck{
-    display: flex;
-    padding:  10px 50px 0 80px;
-}
-.fa-people-group{
-    display: flex;
-    padding:  10px 50px 0 80px;
-}
-.fa-credit-card{
-    display: flex;
-    padding:  10px 50px 0 80px;
-}
-.fa-shield-halved{
-    display: flex;
-    padding:  10px 50px 0 80px;
-}
-/*
-.body-icon{
-    color: blue;
-    display: flex;
-    align-items: center;
-   
-}
 
-/*
-.body-icon-speech{
-    flex-direction:row;
+/* Features and products and icons */
+.features{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
     margin: 30px;
-    padding: 0 0 50px 0;
 }
-.body-icon-speech.body-icon{
+
+.features .text-advert{
+    margin-left: 50px;
+    font-size: 1.2rem;
+}
+
+.features .features-container{
+    margin: auto;
     display: flex;
-    padding-left: 30px;
-   
+    flex-direction: row;
 }
 
-/* .category{
-    width: 200px;
-    height: 40px;
-    border-radius: 50px;
-    background-color: rgb(74, 65, 65);
-    color: white;
+.features .product{
+    width: 150px;
+    font-size: 12px;
+    margin-right: 20px;
+    padding: 5px;
+    text-align: center;
+}
 
-} */
+.features .product .fa{
+    font-size: 30px;
+    padding: 10px;
+}
 
-/* .srch-container{
-     
-} */
+.features .product h3{
+    color: rgb(26, 26, 26);
+    font-weight: 700;
+}
 
-/*
+.features .product p{
+    color: rgb(53, 51, 51);
+    font-size: .7rem;
+}
 
 
 
-
-ul{
-    font-family: Arial, Helvetica, sans-serif;
+.background-img{
     display: flex;
-    justify-content: center;
-    list-style: none;
-    float: right;
-    
+    font-display: auto;
+    gap: 40px;
+    padding: 50px;
+    margin: 50px;
 }
-ul li a{
-    margin: 20px;
+
+ .features-layout .features-text h2{
+    margin-left: 50px;
+    font-size: 2.0rem;
+    padding: 10px;
+}
+.features-layout .layout-img{
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+    margin: 8px 50px;
+}
+
+.choice{
+    background-color: rgb(236, 203, 140);
+}
+.choice .better-layout{
+    display: flex;
+    padding: 30px;
+    gap: 15px;
+}
+.choice-text{
+    font-size: 20px;
+    background-color: rgb(235, 186, 96);
+    border-radius: 10px;
+}
+ .view{
     text-decoration: none;
-    color: white;
-    
-    
+    padding-left: 500px;
+    color: black;
 }
-li a:hover{
-    background-color: rgb(74, 65, 65);
-    width: 100px;
-    height: 200px;
-    border-radius: 4px;
-    border-width:10px;
+.better-layout .items-text{
+    font-size: 30px;
+    font-weight: 100px;
+    color: rgb(247, 7, 7);
+}
+.choice .choice-img{
+    padding: 30px;
+    margin:  6px 50px;
 }
 
-.icon{
-    
-    padding-left: 100px;
-}
-*/
+
+
